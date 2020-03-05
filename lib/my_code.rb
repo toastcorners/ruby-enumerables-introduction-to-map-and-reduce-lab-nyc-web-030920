@@ -52,9 +52,9 @@ end
 def reduce_to_total(source_array, starting_point = 0)
 i = 0
 almost_result = []
-accum = 0
+accum = starting_point
 while i < source_array.length
-  accum = source_array[i] += starting_point
+  accum += source_array[i] 
   almost_result << the_work
   i += 1
 end #=> i loop
