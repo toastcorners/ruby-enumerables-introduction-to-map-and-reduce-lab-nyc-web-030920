@@ -55,7 +55,7 @@ almost_result = []
 accum = starting_point
 while i < source_array.length
   accum += source_array[i] 
-  almost_result << the_work
+  almost_result << accum
   i += 1
 end #=> i loop
 value = almost_result.last 
